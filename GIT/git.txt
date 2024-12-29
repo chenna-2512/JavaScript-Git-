@@ -1,0 +1,138 @@
+Git : 
+Version Control System is a tools that helps to track changes in code
+
+Git is a Version Control System.It is : 
+popular
+free & open source
+fast & scalable
+
+
+git is used:
+to track the history
+to colloborate with the team
+
+
+GitHub:
+Website that allows developers to store and manage their code using Git.
+  github.com
+
+GitHub Account:
+ Create a new repository : apnacollege - demo
+ Make our first commit 
+
+commit - to update the changes we need to use commit in github
+we can use html tags in github like <br> 
+
+
+Setting up GIT : 
+
+Visual Studio code
+Windows (Git Bash)
+Mac(Terminal)
+
+git --version -> It will give the git version that presentin our system
+
+Git Configuaration:
+
+git config --global user.name "My Name"
+git config --global user.email "someone@email.com"
+git config --list
+
+
+Clone & Status
+
+Clone - Cloning a repositary on our local system
+    $git clone <--some link-->
+
+cd - to change the directory
+
+ls --> it is used to see the folders that are present in out git repositary
+ls -a or ls -Force --> this command is used to see all the files in repositary(it will show the hidden files also)
+
+
+
+Status - display the state of the code
+  git status 
+    There are 4 status messages 
+      Untracked - new files that git doesn't yet track
+      Modified - changed
+      Staged - file is ready to be committed
+      unmodified - unchanged
+
+change              
+(modified)
+    /            -----> add(staged) ---->commit(unchanged)
+new file
+(untracked) 
+
+
+Add & commit
+
+add - adds new or changed files in your working directory to the GIT staging area
+      git add <--file name-->   -> adds only specific file in the repositary
+      git add . --> adds all the files that are in their folder
+
+commit - it is the record of change
+      git commit -m "some message"(to commit changes that are done in the file with a msg)
+
+push command
+
+push - upload local repo content to remote repo(to push the file to repositary fro our local system)
+      git push origin main 
+
+mkdir filename ---> this is used to create a new repo in our local system
+
+
+Init command
+
+init - used to create a new git repo
+  git init
+
+  git remote add origin <--link-->
+
+  git remote -v(to verify remote)
+
+  git branch (to check in which branch we are in(master/main etc))
+
+  git branch -M main(to rename branch)
+
+  git push -u origin main (to push our file to git)
+
+
+Work Flow
+
+Local Git
+
+Git Hub Repo -- clone -- changes -- add -- commit -- push
+
+
+Git Branches - (master,main,sub branches)
+
+Branch Commands 
+
+git branch (to check in which branch we are working in)
+
+git branch -M main (to rename our branch to the new one)
+
+git checkout <--branch name--> (to navigate or to get out from that branch to another branch)
+
+git checkout -b <--new branch name--> (to create new branch)
+
+git branch -d <--branch name--> (to delete the branch that we are in) (to delete that branch we need to come out of that branch usin checkout and than we should delete)
+
+Note : 
+When we have created the changes or added any files in sub branches that chnges or modifications cannot be seen out side of that sub branches
+
+
+Merge - merge or combine of two branches or merging the sub branches with main branch
+
+Case 1:
+
+git diff <--branch name--> (to compare commits, branches, files and more)(we get the difference that are in the sub branches and also main branch)
+
+git merge <--branch name--> (to merge 2 branches)
+
+
+Case 2 : Using GitHub
+Create a Pull Request
+Pull Request - it lets you tell others about changes you have pushed to a branch in a repositary on GitHub.
