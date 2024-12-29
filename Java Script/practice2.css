@@ -1,0 +1,11 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    border: 2px solid black;
+}

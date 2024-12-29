@@ -1,0 +1,17 @@
+h1{
+    color: black;
+    background-color: yellow;
+    padding: 20px;
+}
+#header{
+    width: 100px;
+    background-color: aqua;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+}
+.heading{
+    background-color: aqua;
+    padding: 10px;
+}
